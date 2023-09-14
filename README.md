@@ -1,2 +1,2 @@
-# dpl_kelpy
+# DPL | Kelpy Gómez
 Repositorio dedicado a la asignatura de DPL.
