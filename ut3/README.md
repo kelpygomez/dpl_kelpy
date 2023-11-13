@@ -75,6 +75,7 @@ cd src
 cp -r /usr/share/nginx/project/* . 
 docker compose up
 ```
+![WEB DOCKERIZADA](app_docker.png)
 
 ### Pasos seguidos <a id="5"></a>
 
@@ -203,6 +204,8 @@ sudo systemctl reload nginx
 ├── index.html
 └── js
     └── script.js
-
 4 directories, 23 files
 ```
+- Entramos en la dirección del servidor que hemos especificado, junto al puerto y deberíamos poder ver la aplicación web funcional:
+![WEB NGINX](app_nginx.png)
+
