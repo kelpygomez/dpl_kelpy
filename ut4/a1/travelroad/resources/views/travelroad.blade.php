@@ -12,7 +12,7 @@
       @endforeach
     </ul>
 
-    <h2>Places I've Already Been To</h2>
+    <h2>aaaaPlaces I've Already Been To</h2>
     <ul>
       @foreach ($visited as $place)
       <li>{{ $place->name }}</li>
