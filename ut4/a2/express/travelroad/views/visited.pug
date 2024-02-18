@@ -1,0 +1,11 @@
+html
+  head
+    title Travel List
+
+  body
+    h2 Places I've Already Been To
+    ul
+      each place in visited
+        li= place.name
+
+    a(href='/') Return

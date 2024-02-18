@@ -1,0 +1,11 @@
+html
+  head
+    title Travel List
+
+  body
+    h2 Places I'd Like to Visit
+    ul
+      each place in wished
+        li= place.name
+
+    a(href='/') Return
